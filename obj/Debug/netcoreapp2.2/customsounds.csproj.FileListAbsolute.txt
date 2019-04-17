@@ -1,0 +1,11 @@
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.csprojAssemblyReference.cache
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.csproj.CoreCompileInputs.cache
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.AssemblyInfoInputs.cache
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.AssemblyInfo.cs
+C:\workspace\csharp\exercises\customsounds\bin\Debug\netcoreapp2.2\customsounds.deps.json
+C:\workspace\csharp\exercises\customsounds\bin\Debug\netcoreapp2.2\customsounds.runtimeconfig.json
+C:\workspace\csharp\exercises\customsounds\bin\Debug\netcoreapp2.2\customsounds.runtimeconfig.dev.json
+C:\workspace\csharp\exercises\customsounds\bin\Debug\netcoreapp2.2\customsounds.dll
+C:\workspace\csharp\exercises\customsounds\bin\Debug\netcoreapp2.2\customsounds.pdb
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.dll
+C:\workspace\csharp\exercises\customsounds\obj\Debug\netcoreapp2.2\customsounds.pdb
