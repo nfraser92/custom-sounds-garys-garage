@@ -42,6 +42,17 @@ namespace customsounds
                 FuelCapacity = 20
             };
 
+            List<IElectricPowered> electricVehicles = new List<IElectricPowered>();
+            electricVehicles.Add(fxs);
+            electricVehicles.Add(modelS);
+
+            List<IGasPowered> GasPoweredVehicles = new List<IGasPowered>();
+            GasPoweredVehicles.Add(mx410);
+            GasPoweredVehicles.Add(Dodge);
+
+            electricVehicles.ForEach(ev => ev.ChargeBattery());
+            GasPoweredVehicles.ForEach(gv => gv.RefuelTank());
+
             fxs.Drive();
             fxs.Turn("Around");
             fxs.Stop();
@@ -54,6 +65,12 @@ namespace customsounds
             Dodge.Drive();
             Dodge.Turn("left");
             Dodge.Stop();
+
+            GasStation PetrolPump = new GasStation();
+            BatteryChargingStation elecStop = new BatteryChargingStation();
+
+            PetrolPump.Refuel(GasPoweredVehicles);
+            elecStop.Refuel(electricVehicles);
         }
     }
 }

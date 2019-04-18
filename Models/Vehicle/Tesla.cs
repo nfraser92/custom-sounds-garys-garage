@@ -18,7 +18,7 @@ public class Tesla : Vehicle, IElectricPowered {
     }
 
     public void ChargeBattery () {
-
+        Console.WriteLine($"The {MainColor} Tesla is refuelling. It takes {BatteryKWh}KWh to charge.");
      }
 }
 }

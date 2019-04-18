@@ -19,8 +19,7 @@ namespace customsounds
     }
 
     public void ChargeBattery () {
-        Console.WriteLine($"The {MainColor} vehicle is charging");
-        Console.WriteLine($"");
+        Console.WriteLine($"The {MainColor} Zero vehicle is charging. It takes {BatteryKWh}KWh to charge fully.");
     }
 
 }

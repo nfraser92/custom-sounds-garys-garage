@@ -2,7 +2,7 @@ using System;
 
 namespace customsounds
 {
-public class Ram : Vehicle {  // Gas powered truck
+public class Ram : Vehicle, IGasPowered {  // Gas powered truck
     public double FuelCapacity { get; set; }
 
     public override void Drive () {
@@ -19,7 +19,7 @@ public class Ram : Vehicle {  // Gas powered truck
     }
 
     public void RefuelTank () {
-
+        Console.WriteLine($"The {MainColor} Ram is refuelling. It takes {FuelCapacity} gallons.");
     }
 }
 }
